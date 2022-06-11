@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import '../style/home.css';
 
 const Home = () => {
 	const [room, setRoom] = useState('');
